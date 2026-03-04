@@ -16,3 +16,17 @@ button.addEventListener('click', function() { //по клику выполняе
     let result = document.getElementById('res');
     result.innerHTML = res; //innerHTML отправит результат в HTML в тег output
 })
+
+console.info("Заметки");
+
+console.info(document.getElementsByTagName('h2'));
+
+/*В качестве первого символа имени переменной можно использовать
+буквы, символ доллара ($) и подчёркивание (_). Последующие символы
+могут содержать всё вышеперечисленное, а также цифры.*/
+const year = 1999; //const если не планируем переприсваивать переменную, иначе - let
+
+const century = Math.trunc(1999/1000)+1; //Math.trunc() обрезает дробную часть
+console.log(century);
+const duration = 136;
+console.log(duration % 60); //возвращает остаток от деления одного числа на другое.
